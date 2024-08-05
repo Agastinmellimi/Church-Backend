@@ -122,3 +122,5 @@ app.get("/attendance-details", async (request, response) => {
   };
   response.send(data);
 });
+
+module.exports = app;
