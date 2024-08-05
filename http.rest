@@ -1,0 +1,62 @@
+####
+POST http://localhost:3005/submit-attendance
+Content-Type: application/json
+
+{
+    "array": [
+  {
+    "child_id": 1,
+    "date": "2024-02-04",
+    "status": 1
+  },
+  {
+    "child_id": 2,
+    "date": "2024-02-04",
+    "status": 1
+  },
+  {
+    "child_id": 3,
+    "date": "2024-02-04",
+    "status": 1
+  },
+  {
+    "child_id": 4,
+    "date": "2024-02-04",
+    "status": 0
+  },
+  {
+    "child_id": 5,
+    "date": "2024-02-04",
+    "status": 1
+  },
+  {
+    "child_id": 6,
+    "date": "2024-02-04",
+    "status": 1
+  },
+  {
+    "child_id": 7,
+    "date": "2024-02-04",
+    "status": 1
+  },
+  {
+    "child_id": 8,
+    "date": "2024-02-04",
+    "status": 0
+  },
+  {
+    "child_id": 9,
+    "date": "2024-02-04",
+    "status": 1
+  },
+  {
+    "child_id": 10,
+    "date": "2024-02-04",
+    "status": 1
+  },
+  {
+    "child_id": 11,
+    "date": "2024-02-04",
+    "status": 1
+  }
+]}
