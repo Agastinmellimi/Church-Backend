@@ -72,3 +72,11 @@ Content-Type: application/json
 ###
 GET http://localhost:3005/attendance-details
 Content-Type: application/json
+
+###
+DELETE http://localhost:3005/delete-attendance
+Content-Type: application/json
+
+{
+  "date": "2024-05-12"
+}
