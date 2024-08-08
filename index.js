@@ -57,8 +57,10 @@ app.get("/children-details", async (request, response) => {
 
 // attendance sumbit query using chidlren attendance array
 app.post("/submit-attendance", async (request, response) => {
-  const { array } = request.body;
-  array.map(async (item) => {
+  const { date, array } = request.body;
+  const modifiedArray = array.map((item) => ({ ...item, date: date }));
+
+  modifiedArray.map(async (item) => {
     const { child_id, date, status } = item;
     const getDateStatusChild = `SELECT * FROM attendance WHERE child_id=${child_id} AND date='${date}';`;
     const childrenStatus = await db.get(getDateStatusChild);
