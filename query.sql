@@ -3,4 +3,4 @@
 
 -- CREATE TABLE attendance(child_id INTEGER, date DATE, status BOOLEAN DEFAULT false, FOREIGN KEY (child_id) REFERENCES children(id) ON DELETE CASCADE);
 -- UPDATE children SET name = "SANTHOSH DHANAM" WHERE id = 9;
--- SELECT DISTINCT date FROM attendance;
+SELECT DISTINCT date FROM attendance;
