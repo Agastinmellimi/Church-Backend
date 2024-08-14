@@ -113,7 +113,7 @@ app.post("/date-attendance", async (request, response) => {
 
 // GET ALL STUDENTS ATTENDANCE DETAILS
 app.get("/attendance-details", async (request, response) => {
-  const getAttendanceQuery = `SELECT children.id, children.name, SUM(CASE WHEN attendance.status = 1 THEN 1 ELSE 0 END) AS presents, children.gender FROM children LEFT JOIN
+  const getAttendanceQuery = `SELECT children.id, children.name, SUM(CASE WHEN attendance.status = 1 THEN 1 ELSE 0 END) AS presents, children.gender, children.image FROM children LEFT JOIN
     attendance ON children.id = attendance.child_id GROUP BY children.name;`;
   const attendanceDetailsArray = await db.all(getAttendanceQuery);
   const getExistDatesQury = `SELECT COUNT(DISTINCT date) AS working_days FROM attendance;`;

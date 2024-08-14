@@ -3,4 +3,9 @@
 
 -- CREATE TABLE attendance(child_id INTEGER, date DATE, status BOOLEAN DEFAULT false, FOREIGN KEY (child_id) REFERENCES children(id) ON DELETE CASCADE);
 -- UPDATE children SET name = "SANTHOSH DHANAM" WHERE id = 9;
-SELECT DISTINCT date FROM attendance;
+-- SELECT DISTINCT date FROM attendance;
+-- ALTER TABLE children
+-- ADD image STRING;
+-- UPDATE children
+-- SET image = "https://res.cloudinary.com/dkrpgt9kd/image/upload/v1723623059/j0wc60oqk6uniyxl9d6l.png"
+-- WHERE id=14;
