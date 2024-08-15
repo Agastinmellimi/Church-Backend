@@ -99,7 +99,7 @@ app.post("/date-attendance", async (request, response) => {
   const checkDateExistQuery = `SELECT * FROM attendance WHERE date="${date}";`;
   const checkExistDate = await db.get(checkDateExistQuery);
   if (checkExistDate !== undefined) {
-    const dateViceAttendanceQuery = `SELECT children.name, attendance.status  AS presents FROM children INNER JOIN
+    const dateViceAttendanceQuery = `SELECT children.id, children.name, attendance.status  AS presents FROM children INNER JOIN
         attendance ON children.id = attendance.child_id WHERE attendance.date = "${date}" ORDER BY children.id ASC;`;
     const dateViceAttendanceArray = await db.all(dateViceAttendanceQuery);
     response.send(dateViceAttendanceArray);
