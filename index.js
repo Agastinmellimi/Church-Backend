@@ -125,4 +125,10 @@ app.get("/attendance-details", async (request, response) => {
   response.send(data);
 });
 
+app.get("/dates", async (req, res) => {
+  const getDatesQuery = `SELECT DISTINCT date FROM attendance;`;
+  const data = await db.all(getDatesQuery);
+  res.send(data);
+});
+
 module.exports = app;

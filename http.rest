@@ -2,7 +2,7 @@
 POST http://localhost:3005/submit-attendance
 Content-Type: application/json
 
-{  "date": "2024-09-29",
+{  "date": "2024-10-06",
   "array": [
   {
     "child_id": 1, "status": false
@@ -58,6 +58,10 @@ Content-Type: application/json
 
 ###
 GET http://localhost:3005/attendance-details
+Content-Type: application/json
+
+###
+GET http://localhost:3005/dates
 Content-Type: application/json
 
 ###
