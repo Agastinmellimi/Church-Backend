@@ -6,9 +6,10 @@
 -- SELECT DISTINCT date FROM attendance;
 -- ALTER TABLE children
 -- ADD image STRING;
-UPDATE children
-SET id=14
-WHERE id=17;
+-- UPDATE children
+-- SET id=14
+-- WHERE id=17;
 
--- DELETE FROM attendance WHERE child_id=13;
+-- DELETE FROM attendance WHERE child_id=7;
+-- DELETE FROM children WHERE id=7;
 
