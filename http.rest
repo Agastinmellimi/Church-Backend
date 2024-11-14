@@ -2,7 +2,7 @@
 POST http://localhost:3005/submit-attendance
 Content-Type: application/json
 
-{  "date": "2024-11-03",
+{  "date": "2024-11-10",
   "array": [
   {
     "child_id": 1, "status": false
