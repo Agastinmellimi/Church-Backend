@@ -10,6 +10,6 @@
 -- SET id=14
 -- WHERE id=17;
 
--- DELETE FROM attendance WHERE child_id=7;
--- DELETE FROM children WHERE id=7;
+-- DELETE FROM attendance WHERE child_id=13;
+-- DELETE FROM children WHERE id=13;
 
