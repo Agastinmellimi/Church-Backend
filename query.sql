@@ -7,9 +7,9 @@
 -- ALTER TABLE children
 -- ADD image STRING;
 -- UPDATE children
--- SET id=14
--- WHERE id=17;
+-- SET id=10
+-- WHERE id=14;
 
--- DELETE FROM attendance WHERE child_id=13;
+-- DELETE FROM attendance;
 -- DELETE FROM children WHERE id=13;
 
