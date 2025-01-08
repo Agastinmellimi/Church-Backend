@@ -131,4 +131,10 @@ app.get("/dates", async (req, res) => {
   res.send(data);
 });
 
+app.get("/services", async (request, response) => {
+  const getServices = `SELECT * FROM services;`;
+  const data = await db.all(getServices);
+  response.send(data);
+});
+
 module.exports = app;

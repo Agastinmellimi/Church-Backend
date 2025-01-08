@@ -59,3 +59,7 @@ Content-Type: application/json
 {
   "date": "2024-12-22"
 }
+
+###
+GET http://localhost:3005/services
+Content-Type: application/json
