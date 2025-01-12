@@ -1,5 +1,5 @@
 -- CREATE TABLE children(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, name STRING, gender STRING);
--- INSERT INTO children(name, gender) VALUES("PRINSHI SHALINI PALLI", "FEMALE");
+-- INSERT INTO children(id, name, gender) VALUES(11, "PAMU NAGACHAITANYA", "MALE");
 
 -- CREATE TABLE attendance(child_id INTEGER, date DATE, status BOOLEAN DEFAULT false, FOREIGN KEY (child_id) REFERENCES children(id) ON DELETE CASCADE);
 -- UPDATE children SET name="DAKSHITH KARTHIK BHOLA" WHERE id =13;
@@ -7,8 +7,8 @@
 -- ALTER TABLE children
 -- ADD image STRING;
 -- UPDATE children
--- SET id=10
--- WHERE id=14;
+-- SET name="NAGACHAITANYA PAMU"
+-- WHERE id=11;
 
 -- DELETE FROM attendance;
 -- DELETE FROM children WHERE id=13;

@@ -2,10 +2,10 @@
 POST http://localhost:3005/submit-attendance
 Content-Type: application/json
 
-{  "date": "2025-01-05",
+{  "date": "2025-01-12",
   "array": [
   {
-    "child_id": 1, "status": true
+    "child_id": 1, "status": false
   },
   {
     "child_id": 2, "status": false
@@ -17,7 +17,7 @@ Content-Type: application/json
     "child_id": 4, "status": true
   },
   {
-    "child_id": 5, "status": true
+    "child_id": 5, "status": false
   },
   {
     "child_id": 6, "status": false
@@ -29,10 +29,13 @@ Content-Type: application/json
     "child_id": 8, "status": true
   },
   {
-    "child_id": 9, "status": true
+    "child_id": 9, "status": false
   },
   {
     "child_id": 10, "status": true
+  },
+  {
+    "child_id": 11, "status": true
   }
 ]}
 
@@ -41,7 +44,7 @@ POST http://localhost:3005/date-attendance
 Content-Type: application/json
 
 {
-"date": "2024-12-15"
+"date": "2025-01-05"
 }
 
 ###
