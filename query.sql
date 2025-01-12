@@ -6,9 +6,9 @@
 -- SELECT DISTINCT date FROM attendance;
 -- ALTER TABLE children
 -- ADD image STRING;
--- UPDATE children
--- SET name="NAGACHAITANYA PAMU"
--- WHERE id=11;
+UPDATE children
+SET image="https://res.cloudinary.com/dkrpgt9kd/image/upload/v1736668305/cl8wbnwfmhifpmffplik.jpg"
+WHERE id=3;
 
 -- DELETE FROM attendance;
 -- DELETE FROM children WHERE id=13;
