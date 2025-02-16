@@ -32,13 +32,13 @@ Content-Type: application/json
     "child_id": 9, "status": false
   },
   {
-    "child_id": 10, "status": false
+    "child_id": 10, "status": true
   },
   {
     "child_id": 11, "status": true
   },
   {
-    "child_id": 12, "status": true
+    "child_id": 12, "status": false
   }
 ]}
 
@@ -47,7 +47,7 @@ POST http://localhost:3005/date-attendance
 Content-Type: application/json
 
 {
-"date": "2025-01-05"
+"date": "2025-02-16"
 }
 
 ###
