@@ -2,7 +2,7 @@
 POST http://localhost:3005/submit-attendance
 Content-Type: application/json
 
-{  "date": "2025-06-15",
+{  "date": "2025-06-22",
   "array": [
   {
     "child_id": 1, "status": false
@@ -11,13 +11,13 @@ Content-Type: application/json
     "child_id": 2, "status": false
   },
   {
-    "child_id": 3, "status": false
+    "child_id": 3, "status": true
   },
   {
     "child_id": 4, "status": true
   },
   {
-    "child_id": 6, "status": false
+    "child_id": 6, "status": true
   },
   {
     "child_id": 7, "status": false
