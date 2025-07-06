@@ -17,7 +17,7 @@ Content-Type: application/json
     "child_id": 4, "status": true
   },
   {
-    "child_id": 6, "status": false
+    "child_id": 6, "status": true
   },
   {
     "child_id": 7, "status": false
