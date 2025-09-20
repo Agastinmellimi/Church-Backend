@@ -2,7 +2,7 @@
 POST http://localhost:3005/submit-attendance
 Content-Type: application/json
 
-{  "date": "2025-09-7",
+{  "date": "2025-09-07",
   "array": [
   {
     "child_id": 1, "status": false
@@ -41,7 +41,7 @@ POST http://localhost:3005/date-attendance
 Content-Type: application/json
 
 {
-"date": "2025-09-14"
+"date": "2025-09-07"
 }
 
 ###
@@ -57,7 +57,7 @@ DELETE http://localhost:3005/delete-attendance
 Content-Type: application/json
 
 {
-  "date": "2024-12-22"
+  "date": "2025-09-7"
 }
 
 ###
